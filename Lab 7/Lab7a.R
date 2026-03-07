@@ -12,7 +12,7 @@ getwd()  # Get current working directory
 list.files()  # List files in working directory
 
 # 1.3 Import Excel file (updated for .xlsx)
-uforeport <- read_excel("uforeports.xlsx")
+uforeport <- read_excel("uforeport.xlsx")
 View(uforeport)
 
 # 1.4 Import CSV file
